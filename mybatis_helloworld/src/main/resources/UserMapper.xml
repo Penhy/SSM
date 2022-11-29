@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace ：对应的mapper接口 -->
+<mapper namespace="cn.nightwee.mybatis.mappers.UserMapper">
+    <!--
+        id : 对应接口的方法名称.
+    -->
+    <select id="insertUser">
+        INSERT INTO t_user VALUES (NULL, 'admin', '123456', 23, '男', '12345@qq.com');
+    </select>
+</mapper>
