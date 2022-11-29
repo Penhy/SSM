@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <!-- namespace ：对应的mapper接口 -->
-<mapper namespace="cn.nightwee.mybatis.mappers.UserMapper">
+<mapper namespace="cn.nightwee.mybatis.mapper.UserMapper">
     <!--
         id : 对应接口的方法名称.
     -->
