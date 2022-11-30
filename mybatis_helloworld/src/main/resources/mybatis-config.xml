@@ -27,6 +27,6 @@
 
     <!-- 引入 MyBatis 的映射文件 : 存放SQL语句 和 POJO的映射方式 -->
     <mappers>
-        <mapper resource="cn.nightwee.mybatis.mapper/UserMapper.xml"></mapper>
+        <mapper resource="mappers/UserMapper.xml"></mapper>
     </mappers>
 </configuration>
