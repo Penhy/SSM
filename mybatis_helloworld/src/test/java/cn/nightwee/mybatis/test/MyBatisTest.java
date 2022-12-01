@@ -30,7 +30,7 @@ public class MyBatisTest {
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
 
         // 执行SQL操作
-        Integer rows = userMapper.insertUser();
+        int rows = userMapper.insertUser();
         System.out.println("rows = " + rows);
 
         // 提交事务 -> 事务是默认开启的

@@ -8,7 +8,7 @@
     <!--
         id : 对应接口的方法名称.
     -->
-    <select id="insertUser">
+    <insert id="insertUser">
         INSERT INTO t_user VALUES (NULL, 'admin', '123456', 23, '男', '12345@qq.com');
-    </select>
+    </insert>
 </mapper>
