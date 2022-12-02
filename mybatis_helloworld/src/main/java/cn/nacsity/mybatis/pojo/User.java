@@ -1,4 +1,4 @@
-package cn.nightwee.mybatis.pojo;
+package cn.nacsity.mybatis.pojo;
 
 public class User {
 

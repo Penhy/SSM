@@ -1,6 +1,6 @@
-package cn.nightwee.mybatis.test;
+package cn.nacsity.mybatis.test;
 
-import cn.nightwee.mybatis.mapper.UserMapper;
+import cn.nacsity.mybatis.mapper.UserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

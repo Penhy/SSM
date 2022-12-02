@@ -1,4 +1,4 @@
-package cn.nightwee.mybatis.mapper;
+package cn.nacsity.mybatis.mapper;
 
 public interface UserMapper {
     int insertUser();
