@@ -5,6 +5,9 @@
 
 <configuration>
 
+    <!--引入properties文件-->
+    <properties resource="jdbc.properties" />
+
     <!--
         配置链接数据库的环境
         default : 选择那个环境有效
@@ -17,10 +20,10 @@
 
             <!-- 数据源 即连接池-->
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://49.232.29.75:3306/ssm?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf-8&amp;autoReconnect=true"/>
-                <property name="username" value="root"/>
-                <property name="password" value="Phthalic##01"/>
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
     </environments>
